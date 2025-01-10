@@ -1,0 +1,19 @@
+{
+  "name": "announceit-ly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node simpleMailer.js",
+    "test-email": "node simpleMailer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "csv-parser": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "twilio": "^5.4.1"
+  }
+}
