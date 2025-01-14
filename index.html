@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AnnounceItLify - A powerful email automation tool for sending exam results using SendGrid.">
+    <title>AnnounceItLify - Email Automation Tool</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="#"><i class="fas fa-envelope-open-text"></i> AnnounceItLify</a>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#installation">Installation</a>
+            <a href="#usage">Usage</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-text">
+            <h1>📧 AnnounceItLify</h1>
+            <p>Streamline exam result distribution with advanced email automation.</p>
+        </div>
+        <div class="hero-buttons">
+            <a href="https://github.com/Sayuj63/Announceitlify" class="btn btn-primary">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a href="#installation" class="btn btn-secondary">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-paper-plane"></i>
+                    <h3>Bulk Email Sending</h3>
+                    <p>Send exam results to multiple students efficiently.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-csv"></i>
+                    <h3>CSV Processing</h3>
+                    <p>Easy data import from CSV files.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-envelope"></i>
+                  
+                    <p>Create personalized emails with dynamic placeholders.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Section -->
+        <section id="installation" class="installation">
+            <h2>Installation</h2>
+            <div class="code-block">
+                <pre><code>git clone https://github.com/Sayuj63/Announceitlify.git
+npm install</code></pre>
+            </div>
+            <div class="env-setup">
+                <h3>Environment Setup</h3>
+                <div class="code-block">
+                  
+SENDER_EMAIL=your_verified_sender_email</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Usage Section -->
+        <section id="usage" class="usage">
+            <h2>Usage</h2>
+            <div class="code-block">
+                <pre><code>npm run start    # Start the application
+npm run test-email    # Send test email</code></pre>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made with <i class="fas fa-heart"></i> by Sayuj Pillai</p>
+            <p>© 2024 AnnounceItLify. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
